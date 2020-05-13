@@ -1,3 +1,5 @@
+apt-get update && apt-get upgrade -y
+
 sudo adduser teamspeak --system --home /usr/local/bin/teamspeak3-server_linux_amd64/ --disabled-login
 
 cd /tmp 
